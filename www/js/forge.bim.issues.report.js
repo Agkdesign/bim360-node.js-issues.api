@@ -348,7 +348,7 @@ function checkIssueStatJob(jobId){
             $.get('/api/forge/issuereport/get_fieldissue',function(res){
               var fieldIssues = JSON.parse(res); 
               refreshIssueOverview(fieldIssues.type);
-              refreshRootcause(fieldIssues.overview){open: ""} ; 
+              refreshRootcause(fieldIssues.overview); 
               refreshIssuebyCompany(fieldIssues.company);
               refreshWeekDue(fieldIssues.weekdue); 
             }); 
