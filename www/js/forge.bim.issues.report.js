@@ -61,14 +61,14 @@ function refreshIssueOverview(overview){
 
   var config = {
     type: 'pie', 
-    data: chartData,
+    data: issue_type,
     options: {
       responsive: true,
       maintainAspectRatio: false,
 
       title: {
         display: true,
-        text: 'Overall Status'
+        text: 'Overall Status test'
       },
       tooltips: {
         mode: 'index',
