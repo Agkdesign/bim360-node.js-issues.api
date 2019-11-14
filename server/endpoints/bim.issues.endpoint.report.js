@@ -28,7 +28,6 @@ function resetStats(){
     type:{},
     company:{},
     weekdue:{},
-    status:{}
     };
 }
 router.get('/issuereport/startjob',jsonParser, function (req, res) {
