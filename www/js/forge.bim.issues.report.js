@@ -349,7 +349,7 @@ function checkIssueStatJob(jobId){
               var fieldIssues = JSON.parse(res); 
               refreshIssueOverview(fieldIssues.type);
               refreshRootcause(fieldIssues.overview); 
-              refreshIssuebyCompany(fieldIssues.type);
+              refreshIssuebyCompany(fieldIssues.company);
               refreshWeekDue(fieldIssues.weekdue); 
             }); 
           }
